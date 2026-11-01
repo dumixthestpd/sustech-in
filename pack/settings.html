@@ -1,0 +1,11 @@
+<h2>SUSTech sign-in</h2>
+<p>Use your SUSTech account. Leave account fields empty to use the normal login page and password manager.</p>
+<label for="username">University username</label><input id="username" autocomplete="off">
+<label for="password">University password</label><input id="password" type="password" autocomplete="new-password">
+<label for="credentials-file">Import your local credentials file (optional)</label><input id="credentials-file" type="file" accept=".txt,.json">
+<p id="import-feedback" role="status"></p>
+<label><input id="submit" type="checkbox"> Submit the saved account automatically</label>
+<label><input id="consent" type="checkbox"> Continue the university attribute-release step automatically</label>
+<label><input id="browser-only" type="checkbox"> Use the visible login form (compatibility backup)</label>
+<p>Automatic submission uses a background request by default. Browser redirects and the final publisher handoff remain visible. CAPTCHA and MFA need your input. Compatibility uses the original form instead.</p>
+<p>These choices start off. Passwords stay in this browser's pack storage without extension-level encryption. The original credentials file is unchanged.</p>

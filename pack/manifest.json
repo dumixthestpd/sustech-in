@@ -1,0 +1,70 @@
+{
+  "format": "in-stitution/institution-pack",
+  "formatVersion": 2,
+  "id": "sustech",
+  "version": "1.1.0",
+  "maintainer": "sustech-in contributors",
+  "description": "SUSTech CAS and Shibboleth login, informed by sustech_survival. Independently versioned institution pack.",
+  "institution": {
+    "id": "sustech",
+    "library": "executable-pack",
+    "name": "Southern University of Science and Technology",
+    "shortName": "SUSTech",
+    "aliases": [
+      "南方科技大学",
+      "Southern University of Science and Technology of China",
+      "South University of Science and Technology of China",
+      "South University of Science and Technology",
+      "Southern Univ Sci & Techlgy China"
+    ],
+    "searchTerm": "Southern University of Science and Technology",
+    "carsiSearchTerm": "南方科技大学",
+    "federation": "CHINA CERNET Federation",
+    "entityId": "https://idp.sustech.edu.cn/idp/shibboleth",
+    "identityOrigins": [
+      "https://cas.sustech.edu.cn",
+      "https://idp.sustech.edu.cn"
+    ],
+    "discoveryOrigins": [],
+    "cas": null
+  },
+  "adapter": {
+    "apiVersion": 2,
+    "scripts": [
+      "adapter.js"
+    ],
+    "resources": [
+      "login.json",
+      "settings.html",
+      "settings.js",
+      "settings.css"
+    ],
+    "settings": {
+      "html": "settings.html",
+      "scripts": [
+        "settings.js"
+      ],
+      "styles": [
+        "settings.css"
+      ]
+    },
+    "frames": "all",
+    "networkOrigins": [],
+    "returnOrigins": [
+      "https://www.webofscience.com",
+      "https://www.sciencedirect.com",
+      "https://www.scopus.com",
+      "https://auth.elsevier.com",
+      "https://link.springer.com",
+      "https://link.springernature.com",
+      "https://www.nature.com",
+      "https://onlinelibrary.wiley.com",
+      "https://ieeexplore.ieee.org",
+      "https://pubs.acs.org",
+      "https://pubs.rsc.org",
+      "https://www.cnki.net",
+      "https://www.tandfonline.com",
+      "https://www.jstor.org"
+    ]
+  }
+}

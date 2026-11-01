@@ -1,0 +1,35 @@
+{
+  "format": "in-stitution/institution-pack",
+  "formatVersion": 1,
+  "id": "sustech",
+  "version": "1.0.0",
+  "maintainer": "in-stitution contributors",
+  "description": "Settings for the bundled institution login engine. Configure credentials and sign-in preferences separately in the extension.",
+  "institution": {
+    "id": "sustech",
+    "library": "sustech",
+    "name": "Southern University of Science and Technology",
+    "shortName": "SUSTech",
+    "aliases": [
+      "南方科技大学",
+      "Southern University of Science and Technology of China",
+      "South University of Science and Technology of China",
+      "South University of Science and Technology",
+      "Southern Univ Sci & Techlgy China"
+    ],
+    "searchTerm": "Southern University of Science and Technology",
+    "carsiSearchTerm": "南方科技大学",
+    "federation": "CHINA CERNET Federation",
+    "entityId": "https://idp.sustech.edu.cn/idp/shibboleth",
+    "identityOrigins": [
+      "https://idp.sustech.edu.cn"
+    ],
+    "discoveryOrigins": [],
+    "cas": {
+      "loginUrl": "https://cas.sustech.edu.cn/cas/login",
+      "servicePrefixes": [
+        "https://idp.sustech.edu.cn/idp/"
+      ]
+    }
+  }
+}

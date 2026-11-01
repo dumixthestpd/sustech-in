@@ -1,0 +1,7 @@
+{
+  "loginUrl": "https://cas.sustech.edu.cn/cas/login",
+  "servicePrefixes": [
+    "https://idp.sustech.edu.cn/idp/"
+  ],
+  "identityOrigin": "https://idp.sustech.edu.cn"
+}

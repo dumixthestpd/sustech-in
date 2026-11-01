@@ -1,0 +1,6 @@
+dist/
+credentials*
+.env
+.env.*
+*.har
+node_modules/
